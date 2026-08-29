@@ -1,7 +1,7 @@
 {
   "$schema": "https://forge-note.dev/schemas/community-plugins-v1.json",
   "version": 1,
-  "updatedAt": "2026-08-29",
+  "updatedAt": "2026-08-30",
   "mirror": "https://forge-note.dev/plugins",
   "plugins": [
     {
@@ -43,6 +43,20 @@
       "apiVersion": 1,
       "permissions": ["ai:skill", "ai:tool"],
       "repo": "https://github.com/panhuachao/forge-note-plugins/tree/main/plugins/ai-translate",
+      "download": "https://github.com/panhuachao/forge-note-plugins/archive/refs/heads/main.tar.gz",
+      "official": true
+    },
+    {
+      "id": "mermaid",
+      "name": "Mermaid 文本绘图",
+      "version": "1.0.0",
+      "author": "ForgeNote 官方",
+      "description": "在笔记的 ```mermaid 代码块中书写图表文本，预览自动渲染为矢量图（流程图、时序图、甘特图等）。",
+      "tags": ["productivity", "diagram", "preview"],
+      "minAppVersion": "0.1.0",
+      "apiVersion": 1,
+      "permissions": ["ui:preview"],
+      "repo": "https://github.com/panhuachao/forge-note-plugins/tree/main/plugins/mermaid",
       "download": "https://github.com/panhuachao/forge-note-plugins/archive/refs/heads/main.tar.gz",
       "official": true
     }

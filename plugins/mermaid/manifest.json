@@ -1,0 +1,12 @@
+{
+  "id": "mermaid",
+  "name": "Mermaid 文本绘图",
+  "version": "1.0.0",
+  "description": "在笔记的 ```mermaid 代码块中书写图表文本，预览自动渲染为矢量图（流程图、时序图、甘特图等）。",
+  "author": "ForgeNote 官方",
+  "minAppVersion": "0.1.0",
+  "apiVersion": 1,
+  "main": "main.js",
+  "ui": "ui.js",
+  "permissions": ["ui:preview"]
+}

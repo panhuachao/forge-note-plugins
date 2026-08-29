@@ -1,0 +1,11 @@
+{
+  "id": "ai-translate",
+  "name": "AI 翻译",
+  "version": "1.0.0",
+  "description": "为智能管家注册「翻译」技能与可调用工具，把所选文本翻译为目标语言。",
+  "author": "ForgeNote 官方",
+  "minAppVersion": "0.1.0",
+  "apiVersion": 1,
+  "main": "main.js",
+  "permissions": ["ai:skill", "ai:tool"]
+}

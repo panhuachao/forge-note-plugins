@@ -1,0 +1,12 @@
+{
+  "id": "daily-journal",
+  "name": "每日笔记",
+  "version": "1.0.0",
+  "description": "一键创建并跳转到当天的日记笔记，提供侧栏快速入口。",
+  "author": "ForgeNote 官方",
+  "minAppVersion": "0.1.0",
+  "apiVersion": 1,
+  "main": "main.js",
+  "ui": "ui.js",
+  "permissions": ["fs:read", "fs:write", "ui:sidebar"]
+}

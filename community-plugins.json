@@ -1,0 +1,50 @@
+{
+  "$schema": "https://forge-note.dev/schemas/community-plugins-v1.json",
+  "version": 1,
+  "updatedAt": "2026-08-29",
+  "mirror": "https://forge-note.dev/plugins",
+  "plugins": [
+    {
+      "id": "daily-journal",
+      "name": "每日笔记",
+      "version": "1.0.0",
+      "author": "ForgeNote 官方",
+      "description": "一键创建并跳转到当天的日记笔记，提供侧栏快速入口。",
+      "tags": ["productivity", "journal", "sidebar"],
+      "minAppVersion": "0.1.0",
+      "apiVersion": 1,
+      "permissions": ["fs:read", "fs:write", "ui:sidebar", "storage"],
+      "repo": "https://github.com/forge-note/forge-note/tree/main/samples/plugins/daily-journal",
+      "download": "https://github.com/forge-note/forge-note/archive/refs/heads/main.tar.gz",
+      "official": true
+    },
+    {
+      "id": "word-count",
+      "name": "字数统计",
+      "version": "1.0.0",
+      "author": "ForgeNote 官方",
+      "description": "在状态栏提供入口，统计当前笔记中英文字数并支持提醒阈值。",
+      "tags": ["productivity", "statusbar", "writing"],
+      "minAppVersion": "0.1.0",
+      "apiVersion": 1,
+      "permissions": ["fs:read", "ui:statusbar", "storage"],
+      "repo": "https://github.com/forge-note/forge-note/tree/main/samples/plugins/word-count",
+      "download": "https://github.com/forge-note/forge-note/archive/refs/heads/main.tar.gz",
+      "official": true
+    },
+    {
+      "id": "ai-translate",
+      "name": "AI 翻译",
+      "version": "1.0.0",
+      "author": "ForgeNote 官方",
+      "description": "为智能管家注册「翻译」技能与可调用工具，把所选文本翻译为目标语言。",
+      "tags": ["ai", "skill", "tool", "utility"],
+      "minAppVersion": "0.1.0",
+      "apiVersion": 1,
+      "permissions": ["ai:skill", "ai:tool"],
+      "repo": "https://github.com/forge-note/forge-note/tree/main/samples/plugins/ai-translate",
+      "download": "https://github.com/forge-note/forge-note/archive/refs/heads/main.tar.gz",
+      "official": true
+    }
+  ]
+}

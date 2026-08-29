@@ -14,8 +14,8 @@
       "minAppVersion": "0.1.0",
       "apiVersion": 1,
       "permissions": ["fs:read", "fs:write", "ui:sidebar", "storage"],
-      "repo": "https://github.com/forge-note/forge-note/tree/main/samples/plugins/daily-journal",
-      "download": "https://github.com/forge-note/forge-note/archive/refs/heads/main.tar.gz",
+      "repo": "https://github.com/panhuachao/forge-note-plugins/tree/main/plugins/daily-journal",
+      "download": "https://github.com/panhuachao/forge-note-plugins/archive/refs/heads/main.tar.gz",
       "official": true
     },
     {
@@ -28,8 +28,8 @@
       "minAppVersion": "0.1.0",
       "apiVersion": 1,
       "permissions": ["fs:read", "ui:statusbar", "storage"],
-      "repo": "https://github.com/forge-note/forge-note/tree/main/samples/plugins/word-count",
-      "download": "https://github.com/forge-note/forge-note/archive/refs/heads/main.tar.gz",
+      "repo": "https://github.com/panhuachao/forge-note-plugins/tree/main/plugins/word-count",
+      "download": "https://github.com/panhuachao/forge-note-plugins/archive/refs/heads/main.tar.gz",
       "official": true
     },
     {
@@ -42,8 +42,8 @@
       "minAppVersion": "0.1.0",
       "apiVersion": 1,
       "permissions": ["ai:skill", "ai:tool"],
-      "repo": "https://github.com/forge-note/forge-note/tree/main/samples/plugins/ai-translate",
-      "download": "https://github.com/forge-note/forge-note/archive/refs/heads/main.tar.gz",
+      "repo": "https://github.com/panhuachao/forge-note-plugins/tree/main/plugins/ai-translate",
+      "download": "https://github.com/panhuachao/forge-note-plugins/archive/refs/heads/main.tar.gz",
       "official": true
     }
   ]

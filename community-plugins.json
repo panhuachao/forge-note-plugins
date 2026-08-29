@@ -16,6 +16,12 @@
       "permissions": ["fs:read", "fs:write", "ui:sidebar", "storage"],
       "repo": "https://github.com/panhuachao/forge-note-plugins/tree/main/plugins/daily-journal",
       "download": "https://github.com/panhuachao/forge-note-plugins/archive/refs/heads/main.tar.gz",
+      "files": [
+        "plugins/daily-journal/manifest.json",
+        "plugins/daily-journal/main.js",
+        "plugins/daily-journal/ui.js",
+        "plugins/daily-journal/README.md"
+      ],
       "official": true
     },
     {
@@ -30,6 +36,12 @@
       "permissions": ["fs:read", "ui:statusbar", "storage"],
       "repo": "https://github.com/panhuachao/forge-note-plugins/tree/main/plugins/word-count",
       "download": "https://github.com/panhuachao/forge-note-plugins/archive/refs/heads/main.tar.gz",
+      "files": [
+        "plugins/word-count/manifest.json",
+        "plugins/word-count/main.js",
+        "plugins/word-count/ui.js",
+        "plugins/word-count/README.md"
+      ],
       "official": true
     },
     {
@@ -44,6 +56,11 @@
       "permissions": ["ai:skill", "ai:tool"],
       "repo": "https://github.com/panhuachao/forge-note-plugins/tree/main/plugins/ai-translate",
       "download": "https://github.com/panhuachao/forge-note-plugins/archive/refs/heads/main.tar.gz",
+      "files": [
+        "plugins/ai-translate/manifest.json",
+        "plugins/ai-translate/main.js",
+        "plugins/ai-translate/README.md"
+      ],
       "official": true
     },
     {
@@ -58,6 +75,13 @@
       "permissions": ["ui:preview"],
       "repo": "https://github.com/panhuachao/forge-note-plugins/tree/main/plugins/mermaid",
       "download": "https://github.com/panhuachao/forge-note-plugins/archive/refs/heads/main.tar.gz",
+      "files": [
+        "plugins/mermaid/manifest.json",
+        "plugins/mermaid/main.js",
+        "plugins/mermaid/ui.js",
+        "plugins/mermaid/README.md",
+        "plugins/mermaid/vendor/mermaid.min.js"
+      ],
       "official": true
     }
   ]

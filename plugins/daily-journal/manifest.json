@@ -8,5 +8,5 @@
   "apiVersion": 1,
   "main": "main.js",
   "ui": "ui.js",
-  "permissions": ["fs:read", "fs:write", "ui:sidebar"]
+  "permissions": ["fs:read", "fs:write", "ui:sidebar", "storage"]
 }
